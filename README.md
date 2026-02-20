@@ -13,7 +13,7 @@ Bu proje, Prof. Dr. Mehmet Akif Erişmiş ile yürütülen çalışmalar kapsam�
 
 ## 🛠️ Teknik Detaylar
 * **Donanım:** STM32F411 Nucleo, ADS1115 ADC.
-* **Protokoller:** I2C (400kHz Fast Mode), UART (921.600 bps).
+* **Protokoller:** I2C (400kHz Fast Mode), UART (115200 bps).
 * **Yazılım:** C (STM32 HAL), Python 3.
 
 ## 🔌 Bağlantı Şeması
