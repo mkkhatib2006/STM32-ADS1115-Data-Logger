@@ -6,7 +6,7 @@ Bu proje, Prof. Dr. Mehmet Akif Erişmiş ile yürütülen çalışmalar kapsam�
 
 * **Maksimum Örnekleme Hızı:** I2C sürücüleri optimize edilerek ADS1115 donanımsal tepe noktası olan **860 SPS** hızına çıkarılmıştır.
 * **Döngüsel Tampon (Circular Buffer):** Veri kaybını önlemek için C dilinde 4096 elemanlı float tabanlı döngüsel tampon mimarisi uygulanmıştır.
-* **Hızlı Haberleşme:** UART arayüzü **921.600 Baud** hızına yapılandırılarak PC tarafında darboğaz oluşması engellenmiştir.
+* **Hızlı Haberleşme:** UART arayüzü **115200 Baud** hızına yapılandırılarak PC tarafında darboğaz oluşması engellenmiştir.
 * **Yazılımsal Örnekleme:** Kullanıcının 1-860 SPS arasında dilediği hızda veri alabilmesi için float hassasiyetinde zamanlama algoritması geliştirilmiştir.
 * **Tetikleme Desteği:** Kare dalga sinyalleri ile senkronize kayıt için EXTI (External Interrupt) entegrasyonu yapılmıştır.
 * **Canlı Python Arayüzü:** Gerçek zamanlı sayaç ve veri görselleştirme sunan, verileri anlık olarak `.txt` formatında kaydeden Python CLI arayüzü sunulmuştur.
